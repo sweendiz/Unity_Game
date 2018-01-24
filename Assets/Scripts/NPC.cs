@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour {
 
-    public string name;
+    public string npcName;
     //add talk method
 }

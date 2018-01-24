@@ -51,7 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\CameraControl.cs" />
      <Compile Include="Assets\Scripts\clickToMove.cs" />
      <Compile Include="Assets\Scripts\Lumberjack_Steve.cs" />
      <Compile Include="Assets\Scripts\NPC.cs" />

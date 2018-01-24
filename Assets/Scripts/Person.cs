@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
 
-    public string name;
+    public string characterName;
     public int health;
     public int damage;
 
