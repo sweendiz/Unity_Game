@@ -31,14 +31,22 @@ public class CameraControl : MonoBehaviour
             currentX += Input.GetAxis("Mouse X") * sensitivityX;
             currentY += Input.GetAxis("Mouse Y") * sensitivityY;
 
-            currentY = (Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MAX));
+            currentY = (Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MAX));  // Camera min > = terrain @ distance? or at every point 
         }
-        if (Input.GetKey("up")) {
-            Debug.Log("Up arrow");
+        if (Input.GetKeyDown("up")) {
+            while (currentY < Y_ANGLE_MAX)
+            {
+                currentY = currentY + 1;
+                Debug.Log("Up arrow");
+            }
         }
-        if (Input.GetKey("down"))
+        if (Input.GetKeyDown("down"))
         {
-            Debug.Log("Down arrow");
+            while (currentY > Y_ANGLE_MIN)
+            {
+                currentY = currentY -1;
+                Debug.Log("Down arrow");
+            }
         }
         if (Input.GetKey("right"))
         {

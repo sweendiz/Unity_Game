@@ -191,7 +191,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1545437}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.29, y: 8, z: 0.5}
+  m_LocalPosition: {x: 0.296, y: 8, z: 0.5}
   m_LocalScale: {x: 0.0100000035, y: 16, z: 0.4}
   m_Children: []
   m_Father: {fileID: 1241557555}
@@ -607,6 +607,7 @@ GameObject:
   - component: {fileID: 292178347}
   - component: {fileID: 292178346}
   - component: {fileID: 292178345}
+  - component: {fileID: 292178349}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -683,6 +684,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 1.309, y: 0, z: -0.30600002}
+--- !u!114 &292178349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 292178344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4f6c3eab9e11541babe17ebd3aa5a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &317881489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,7 +1877,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1939102361}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.2899999, y: 8, z: 0.5}
+  m_LocalPosition: {x: -0.301, y: 8, z: 0.5}
   m_LocalScale: {x: 0.0100000035, y: 16, z: 0.40000027}
   m_Children: []
   m_Father: {fileID: 1241557555}
@@ -1938,7 +1950,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Inventory
 --- !u!222 &1969180669
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2012,7 +2024,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: Chat Here...
 --- !u!222 &2048023819
 CanvasRenderer:
   m_ObjectHideFlags: 0

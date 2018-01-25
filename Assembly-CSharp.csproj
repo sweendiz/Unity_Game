@@ -53,9 +53,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraControl.cs" />
      <Compile Include="Assets\Scripts\clickToMove.cs" />
+     <Compile Include="Assets\Scripts\Interactive.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\Lumberjack_Steve.cs" />
      <Compile Include="Assets\Scripts\NPC.cs" />
      <Compile Include="Assets\Scripts\Person.cs" />
+     <Compile Include="Assets\Scripts\TreeController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/SRC/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
